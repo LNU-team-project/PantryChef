@@ -21,3 +21,10 @@ key.properties
 # OS files
 .DS_Store
 Thumbs.db
+
+# Python backend local files
+backend/.env
+backend/.venv/
+backend/__pycache__/
+*.pyc
+
