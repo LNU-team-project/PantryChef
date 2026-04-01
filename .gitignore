@@ -1,0 +1,23 @@
+# Android/Gradle build outputs
+.gradle/
+**/build/
+.externalNativeBuild/
+.cxx/
+
+# Local machine config
+local.properties
+gradle/gradle-daemon-jvm.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+
+# Signing files (do not commit secrets)
+*.jks
+*.keystore
+key.properties
+
+# OS files
+.DS_Store
+Thumbs.db
